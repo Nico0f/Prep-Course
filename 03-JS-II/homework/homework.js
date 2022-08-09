@@ -51,6 +51,8 @@ function saludo(idioma) {
     return "Ni Hao!";
   } else if (idioma === "ingles") {
     return "Hello!";
+  } else {
+    return "Hola!";
   }
 }
 
@@ -120,6 +122,8 @@ function fizzBuzz(numero) {
     return "fizz";
   } else if (numero%5 == 0) {
     return "buzz";
+  } else {
+    return numero;
   }
 }
 
@@ -167,19 +171,29 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  
+  var tabla = []
+  for (var i = 0; i<=10;i++) {
+    tabla.push(6*i);
+  }
+  return tabla;
 }
 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  
+  return (numero>=100 && numero<=999)
 }
 
 function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
+  var i = 1
+  while (i<=8) {
+    numero += 5
+    i++
+  }
+  return numero
 }
 
 
