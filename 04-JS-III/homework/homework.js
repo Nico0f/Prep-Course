@@ -206,7 +206,7 @@ function mesesDelAño(array) {
     } else if ((array[i] === "Marzo") && b === 0) {
       list.push(array[i]);
       b++;
-    } else if ((array[i] === "Noviembre") && ac === 0) {
+    } else if ((array[i] === "Noviembre") && c === 0) {
       list.push(array[i]);
       c++;
     }
