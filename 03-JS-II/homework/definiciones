@@ -1,0 +1,8 @@
+•for:
+El bucle ‘for’ es una forma de ejecutar un bloque de código una cantidad de veces determinada o hasta que una condición impuesta se cumpla. Para ello creamos en dicho bucle una variable que funciona como índice, una condición que se debe cumplir para ejecutar el código si es verdadera, y un contador que puede aumentar o decrecer la variable para reevaluar la condición.
+
+•&&, ||, !:
+&&, || y ! son operadores lógicos que nos permiten combinar expresiones de igualdad y condiciones y preguntar si alguna de las dos es verdadera, si ambas son verdaderas o si ninguna de ellas es verdadera.
+-&&: operador ‘Y’ (‘and’), evalua ambas expresiones y devuelve verdadero si ambas son ‘true’. Si uno o ambos son ‘false’ devuelve ‘false’.
+-||: operador ‘O’ (‘or’), evalua ambas expresiones y devuelve verdadero si alguna de ellas, o ambas son ‘true’. Devuelve ‘false’ solo si ambas expresiones son ‘false’.  
+-!: operador ‘NO’ (‘not’), determina una desigualdad, devuelve el valor booleano opuesto sobre el que se aplica.
