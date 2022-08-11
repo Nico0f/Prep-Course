@@ -1,0 +1,2 @@
+•Arrays:
+Un array es un tipo de variable especial que puede contener más de un valor. Pueden contener datos de diferentes tipos. Podemos acceder a estos datos a través de índices, empezando por ‘0’ en su primer lugar. Los arrays también nos permiten utilizar métodos para evaluar, transformar o devolver elementos que se encuentran en su interior.
