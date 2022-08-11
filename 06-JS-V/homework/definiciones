@@ -1,0 +1,5 @@
+•Prototype:
+‘Prototype’ es la forma en que los objetos heredan los métodos y propiedades de uno a otro. El prototype es una clase de objeto al que se pueden referenciar otros objetos para usar métodos y no tener que describirlos individualmente en cada objeto, además de propiedades redundantes. En JavaScript se pueden considerar todos los tipos de datos (‘strings’, ‘arrays’, etc…) tienen un prototype del que heredan sus métodos, y cuando creamos uno de esos tipos de datos creamos un objeto que referencia a una clase superior.
+
+•Constructors (de Clases):
+El método ‘constructor’ es una forma particular de crear clases, que nos permite en su sintaxis introducir las propiedades de los objetos a crear en dicha clase como argumentos. Seguido a esto podemos introducir funciones particulares de estos objetos, que llamamos métodos.
