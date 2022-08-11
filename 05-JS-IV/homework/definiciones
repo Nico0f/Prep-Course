@@ -1,0 +1,14 @@
+•Objetos:
+Los objetos son contenedores de datos, similares a los arrays. Pero mientras las arrays tienen diferentes tipos de datos y elementos que pueden o no estar relacionados, un objeto tiene información, elementos y valores en forma de tipos de datos relacionados a una cosa en particular (le llamamos instancia).
+
+•Propiedades:
+Una propiedad (tambien llamado ‘key’) es un identificador o clave que esta asociada a un valor en particular. Un objeto puede tener solo una propiedad en particular, pero varias propiedades pueden dar como resultado el mismo valor. Podemos pensar en las propiedades como llaves que nos dejan acceder a determinados valores.
+
+•Métodos:
+Los métodos son funciones que se pueden establecer dentro de un objeto. Estas funciones nos permiten realizar acciones en su objeto determinado. Es posible también determinar métodos fuera de objetos particulares y ligar un método a más de un objeto.
+
+•Bucle ‘for … in’:
+Los objetos no son arreglos con índice (ordenados) como las arrays, por esto es que no podemos iterar a través de ellos con un simple bucle ‘for’. Para ello podemos usar el bucle ‘for … in’ que nos permite iterar sobre todas las claves. Al iterar sobre estas claves podemos, a su vez, iterar sobre todos los valores de dicho objeto.
+
+•Notación de puntos vs notación de corchetes:
+Podemos acceder indistintamente a los valores de un objeto usando como notación la sintaxis ‘objeto.propiedad’ o también ‘objeto[“propiedad”]’. La forma de punto puede resultar más rápida, pero falla cuando queremos acceder a una propiedad que está dada dentro de una variable, en tal caso, en vez de buscar la propiedad dentro de la variable intenta buscar el método asociado a la frase usada como variable. Esto hace deseable en ocasiones usar la notación con corchetes para acceder al valor de un objeto asociado a una propiedad.
