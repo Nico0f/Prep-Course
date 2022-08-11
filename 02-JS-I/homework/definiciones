@@ -1,0 +1,14 @@
+•Variables:
+Las variables son contenedores de tipos de datos. Estos datos pueden ser strings, números, booleanos, funciones, objetos, etc.
+
+•Strings:
+‘Strings’ son cero caracteres, o una cadena de letras, números o caracteres almacenados dentro de comillas.
+
+•Funciones (argumentos, return):
+Una función es un bloque de código designado para realizar una acción en particular. La función puede ser una expression, ya que devuelve algo, o un statement, ya que realiza una acción. Podemos ingresar argumentos en la función para transformarlos o usarlos para devolver otro, o el mismo valor.
+
+•Declaraciones if:
+Usamos la declaración ‘if’ para ejecutar o no un bloque de código dependiendo de si se cumple o no una condición en particular que establecemos. Si la condición no se cumple podemos complementar a ‘if’ con ‘else’, ejecutando otra línea de código siempre que la primera condición sea falsa, o ‘else if’ en caso de querer agregar otra condición adicional en caso de que la primera sea falsa.
+
+•Valores booleanos (true, false):
+Un booleano representa uno de dos valores, ‘true’ o ‘false’. Los valores booleanos pueden presentarse en varios tipos de datos, por ejemplo, una string vacía (“”) representa el valor booleano ‘false’. El número 0, un array vacío ([]), el dato ‘null’ y el no número (NaN) también son valores ‘false’. Por su parte cualquier dato que contenga valor, como un número N (N!=0), una string no vacía, una lista no vacía, etc, son considerados ‘true’.
