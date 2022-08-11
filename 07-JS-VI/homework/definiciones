@@ -1,0 +1,2 @@
+•Funciones Callback:
+Llamamos ‘Callback’ a la capacidad de pasar una función como argumento de otra función. Estas funciones pueden llamarse en cualquier momento y modificar contenido dentro de la función original. Las funciones Callback son usadas en distintos métodos de arrays, por ejemplo ‘.forEach’, ‘.map’, ‘.reduce’, etc.
